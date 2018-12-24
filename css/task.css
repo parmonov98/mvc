@@ -1,3 +1,4 @@
+
 .red {
     color: red;
 }
@@ -9,7 +10,7 @@
 
 .nav {
     padding: 10px;
-	background-color: cadetblue;
+	background-color:darkblue;
 	margin-bottom: 50px;
 }
 
@@ -25,6 +26,7 @@
 
 .nav>ul>li>a {
     padding: 5px 10px;
+	color: aquamarine;
 }
 
 .clear {
