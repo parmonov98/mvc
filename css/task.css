@@ -1,0 +1,109 @@
+.red {
+    color: red;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.nav {
+    padding: 10px;
+	background-color: cadetblue;
+	margin-bottom: 50px;
+}
+
+.nav>ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav>ul>li {
+    float: left;
+}
+
+.nav>ul>li>a {
+    padding: 5px 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+.main {
+    min-height: 400px;
+}
+
+.form-login {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.fr-item {
+    display: flex;
+    padding: 5px 10px;
+    align-items: baseline;
+}
+
+.fr-item>input {
+    flex: 1;
+    padding: 5px;
+    margin: 0 0 0px 10;
+}
+
+.fr-item>input[type="submit"] {
+    margin: 00;
+}
+
+.senten {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.senten>a.word {
+    padding: 3px 5px;
+    min-width: 50px;
+    width: initial;
+}
+
+.inactive {
+    display: inline-block;
+    background: none;
+    border: 1px solid #555;
+    height: 15px;
+}
+
+.options {
+    margin: 50px 0;
+}
+
+.options a.option {
+    background: #f93;
+    padding: 3px 5px;
+}
+
+.sentence {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sentence .cell {
+    flex: 1;
+    height: 30px;
+}
+
+.sentence .content {
+    flex: 2;
+}
+
+.stats{
+	margin: 20px 0 0 0;
+	background-color: beige;
+}
+
+.stats > table {
+	width: 100%;
+	text-align: center;
+}
